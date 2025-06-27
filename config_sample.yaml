@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    your_username:
+      name: Your Name
+      password: 'YOUR_HASHED_PASSWORD'  # 🔐 Replace with hashed password from hash_pass.py
+
+cookie:
+  name: chat_app
+  key: your_cookie_key  # 🔑 Use a strong secret key
+  expiry_days: 1

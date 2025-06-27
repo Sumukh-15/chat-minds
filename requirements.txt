@@ -1,0 +1,9 @@
+streamlit
+streamlit-authenticator
+pyyaml
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+ollama
+bcrypt
