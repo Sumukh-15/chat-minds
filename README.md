@@ -41,7 +41,7 @@ chat-minds/
 
 ## 🔧 Setup Instructions
 
-### ✅ 1. Install Ollama and model
+## ✅ Install Ollama and model
 
 Install [Ollama](https://ollama.com/download) and run:
 
@@ -50,17 +50,19 @@ Install [Ollama](https://ollama.com/download) and run:
 
 Or use other models:
 ~ollama pull llama2
-
+```
 ---
 
 ## ✅ Create virtual environment
-
+```bash
 ~python -m venv venv
 ~source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ## ✅ 3. Install dependencies
-
-pip install -r requirements.txt
+```bash
+~pip install -r requirements.txt
+```
 =>requirements.txt/
     streamlit
     streamlit-authenticator
@@ -76,12 +78,14 @@ pip install -r requirements.txt
 Rename config_sample.yaml to config.yaml and update usernames and hashed passwords.
 
 To hash a new password:
-
+```bash
 ~python hash_sample_pass.py
+```
 
 ## ▶️ Run the App
-
+```bash
 ~streamlit run main.py
+```
 =>Then open http://localhost:8501 in your browser.
 
 ## 🧠 Supported Models
